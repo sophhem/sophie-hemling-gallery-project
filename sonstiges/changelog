@@ -1,4 +1,24 @@
 version 1.0.0
+- Projekt initial erstellt
 
 version 1.0.1
-- css header fertig gestellt + Slideshow
+- CSS: Header fertiggestellt
+- CSS: Grundlegende Slideshow-Stile hinzugefügt
+- HTML: Grundstruktur (Header, Nav, Main) angelegt
+
+version 1.0.2 - 2025-12-03
+- HTML: Slider-Markup ergänzt mit 4 Slides und prev/next Buttons
+- HTML: main.js in index.html eingebunden (Slideshow-Steuerung)
+- HTML: Navigation vervollständigt (Logo + Link-Liste)
+- HTML: Hauptinhalt (main-section) mit H1, H2 und Paragraph hinzugefügt
+- HTML: Alt-Texte für Bilder gesetzt, Viewport-Meta bestätigt
+- CSS: Header- und Slideshow-Styling finalisiert
+- JS: Slideshow-Funktionen (prevSlide/nextSlide) verknüpft (in main.js erwartet)
+- Sonstiges: Dateipfade für Bilder und Stylesheet überprüft
+
+version 1.0.3 - 2025-12-03
+- HTML: Slider-Buttons korrigiert (HTML-Entities mit Semikolon ergänzt: &#10094; / &#10095;) — Buttons werden jetzt korrekt dargestellt
+- CSS: Layout-Anpassung geplant/ vorgeschlagen — zentrale Max-Breite für Header und Main eingeführt (--site-max-width) und .l-main so zentriert, dass Breite mit Header übereinstimmt (padding/box-sizing berücksichtigt)
+- CSS: Hover-Selektor überprüft und sichergestellt, dass .nav-item a:hover korrekt angewendet wird
+- Sonstiges: versions-Datei auf Version 1.0.3 abgestimmt
+- Hinweis: JS (main.js)
